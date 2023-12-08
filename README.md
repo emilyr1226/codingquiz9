@@ -4,5 +4,5 @@ The time complexity of Mini Max Sum is O(n log n). This is because we first do c
 The space comlexity of MiniMaxSum is O(1).This because we are not using more space than our input list.
 
 Weighted Uniform Strings:
-The time complexity of Weighted Uniform Strings is O(n).This is because first we initialize a HashMap, which is constant. Next, we convert characters to an array, which is linear. Next, we have a for-loop with constant work, which is linear. Then, we have another for loop with constant work, which is linear. Lastly, we have a third for-loop with constant work, which is linear. Thus, the time complexity is linear. 
+The time complexity of Weighted Uniform Strings is O(n^2).This is because first we initialize a HashMap, which is constant. Next, we convert characters to an array, which is linear. Next, we have a for-loop with constant work, which is linear. Then, we have another for loop with constant work, which is linear. Lastly, we have a third for-loop with looking at what is contained in a list, which takes O(n^2). Thus, the time complexity is O(n^2). 
 The space comlexity of Weighted Uniform String is O(n). This is because we use more space than our input list and string with our hashmaps.
